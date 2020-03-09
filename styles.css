@@ -1,0 +1,33 @@
+.body{
+    text-align: center;
+}
+.calc-body{
+    background-color: rgb(194, 194, 194);
+    width: 50%;
+    text-align: center;
+    display: block;
+    padding: 5%;
+    border-radius: 5%;
+    margin-top : 5%;
+        
+}
+
+@media (max-width: 768px){
+    .calc-body{
+        width: 90%;
+        
+    }
+}
+
+.result-bar, .p-bar{
+    background-color: #ffffff;
+    margin: 10px 10px;
+    padding: 5% 9%;
+}
+
+.btn{
+    margin: 1%;
+}
+.button-zero{
+    padding: 5px;
+}
